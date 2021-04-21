@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82F6336826306FFE00A1ACE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6336726306FFE00A1ACE9 /* AppDelegate.swift */; };
+		82F6336A26306FFE00A1ACE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6336926306FFE00A1ACE9 /* SceneDelegate.swift */; };
+		82F6336C26306FFE00A1ACE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6336B26306FFE00A1ACE9 /* ContentView.swift */; };
+		82F6336E2630700000A1ACE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F6336D2630700000A1ACE9 /* Assets.xcassets */; };
+		82F633712630700000A1ACE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F633702630700000A1ACE9 /* Preview Assets.xcassets */; };
+		82F633742630700000A1ACE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F633722630700000A1ACE9 /* LaunchScreen.storyboard */; };
+		82F6337F2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6337E2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift */; };
+		82F6338A2630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633892630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82F6337B2630700000A1ACE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82F6335C26306FFE00A1ACE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F6336326306FFE00A1ACE9;
+			remoteInfo = "IXP Mega-keyboard";
+		};
+		82F633862630700100A1ACE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82F6335C26306FFE00A1ACE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F6336326306FFE00A1ACE9;
+			remoteInfo = "IXP Mega-keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82F6336426306FFE00A1ACE9 /* IXP Mega-keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IXP Mega-keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F6336726306FFE00A1ACE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82F6336926306FFE00A1ACE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82F6336B26306FFE00A1ACE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82F6336D2630700000A1ACE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82F633702630700000A1ACE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82F633732630700000A1ACE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82F633752630700000A1ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F6337A2630700000A1ACE9 /* IXP Mega-keyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IXP Mega-keyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F6337E2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IXP_Mega_keyboardTests.swift; sourceTree = "<group>"; };
+		82F633802630700000A1ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F633852630700100A1ACE9 /* IXP Mega-keyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IXP Mega-keyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F633892630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IXP_Mega_keyboardUITests.swift; sourceTree = "<group>"; };
+		82F6338B2630700100A1ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82F6336126306FFE00A1ACE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F633772630700000A1ACE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F633822630700000A1ACE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82F6335B26306FFE00A1ACE9 = {
+			isa = PBXGroup;
+			children = (
+				82F6336626306FFE00A1ACE9 /* IXP Mega-keyboard */,
+				82F6337D2630700000A1ACE9 /* IXP Mega-keyboardTests */,
+				82F633882630700100A1ACE9 /* IXP Mega-keyboardUITests */,
+				82F6336526306FFE00A1ACE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82F6336526306FFE00A1ACE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82F6336426306FFE00A1ACE9 /* IXP Mega-keyboard.app */,
+				82F6337A2630700000A1ACE9 /* IXP Mega-keyboardTests.xctest */,
+				82F633852630700100A1ACE9 /* IXP Mega-keyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82F6336626306FFE00A1ACE9 /* IXP Mega-keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				82F6336726306FFE00A1ACE9 /* AppDelegate.swift */,
+				82F6336926306FFE00A1ACE9 /* SceneDelegate.swift */,
+				82F6336B26306FFE00A1ACE9 /* ContentView.swift */,
+				82F6336D2630700000A1ACE9 /* Assets.xcassets */,
+				82F633722630700000A1ACE9 /* LaunchScreen.storyboard */,
+				82F633752630700000A1ACE9 /* Info.plist */,
+				82F6336F2630700000A1ACE9 /* Preview Content */,
+			);
+			path = "IXP Mega-keyboard";
+			sourceTree = "<group>";
+		};
+		82F6336F2630700000A1ACE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82F633702630700000A1ACE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82F6337D2630700000A1ACE9 /* IXP Mega-keyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				82F6337E2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift */,
+				82F633802630700000A1ACE9 /* Info.plist */,
+			);
+			path = "IXP Mega-keyboardTests";
+			sourceTree = "<group>";
+		};
+		82F633882630700100A1ACE9 /* IXP Mega-keyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82F633892630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift */,
+				82F6338B2630700100A1ACE9 /* Info.plist */,
+			);
+			path = "IXP Mega-keyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82F6336326306FFE00A1ACE9 /* IXP Mega-keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F6338E2630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboard" */;
+			buildPhases = (
+				82F6336026306FFE00A1ACE9 /* Sources */,
+				82F6336126306FFE00A1ACE9 /* Frameworks */,
+				82F6336226306FFE00A1ACE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IXP Mega-keyboard";
+			productName = "IXP Mega-keyboard";
+			productReference = 82F6336426306FFE00A1ACE9 /* IXP Mega-keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82F633792630700000A1ACE9 /* IXP Mega-keyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F633912630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboardTests" */;
+			buildPhases = (
+				82F633762630700000A1ACE9 /* Sources */,
+				82F633772630700000A1ACE9 /* Frameworks */,
+				82F633782630700000A1ACE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F6337C2630700000A1ACE9 /* PBXTargetDependency */,
+			);
+			name = "IXP Mega-keyboardTests";
+			productName = "IXP Mega-keyboardTests";
+			productReference = 82F6337A2630700000A1ACE9 /* IXP Mega-keyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82F633842630700000A1ACE9 /* IXP Mega-keyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F633942630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboardUITests" */;
+			buildPhases = (
+				82F633812630700000A1ACE9 /* Sources */,
+				82F633822630700000A1ACE9 /* Frameworks */,
+				82F633832630700000A1ACE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F633872630700100A1ACE9 /* PBXTargetDependency */,
+			);
+			name = "IXP Mega-keyboardUITests";
+			productName = "IXP Mega-keyboardUITests";
+			productReference = 82F633852630700100A1ACE9 /* IXP Mega-keyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82F6335C26306FFE00A1ACE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					82F6336326306FFE00A1ACE9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					82F633792630700000A1ACE9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 82F6336326306FFE00A1ACE9;
+					};
+					82F633842630700000A1ACE9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 82F6336326306FFE00A1ACE9;
+					};
+				};
+			};
+			buildConfigurationList = 82F6335F26306FFE00A1ACE9 /* Build configuration list for PBXProject "IXP Mega-keyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82F6335B26306FFE00A1ACE9;
+			productRefGroup = 82F6336526306FFE00A1ACE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82F6336326306FFE00A1ACE9 /* IXP Mega-keyboard */,
+				82F633792630700000A1ACE9 /* IXP Mega-keyboardTests */,
+				82F633842630700000A1ACE9 /* IXP Mega-keyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82F6336226306FFE00A1ACE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F633742630700000A1ACE9 /* LaunchScreen.storyboard in Resources */,
+				82F633712630700000A1ACE9 /* Preview Assets.xcassets in Resources */,
+				82F6336E2630700000A1ACE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F633782630700000A1ACE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F633832630700000A1ACE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82F6336026306FFE00A1ACE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F6336826306FFE00A1ACE9 /* AppDelegate.swift in Sources */,
+				82F6336A26306FFE00A1ACE9 /* SceneDelegate.swift in Sources */,
+				82F6336C26306FFE00A1ACE9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F633762630700000A1ACE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F6337F2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F633812630700000A1ACE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F6338A2630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82F6337C2630700000A1ACE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F6336326306FFE00A1ACE9 /* IXP Mega-keyboard */;
+			targetProxy = 82F6337B2630700000A1ACE9 /* PBXContainerItemProxy */;
+		};
+		82F633872630700100A1ACE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F6336326306FFE00A1ACE9 /* IXP Mega-keyboard */;
+			targetProxy = 82F633862630700100A1ACE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82F633722630700000A1ACE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F633732630700000A1ACE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82F6338C2630700100A1ACE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82F6338D2630700100A1ACE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82F6338F2630700100A1ACE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IXP Mega-keyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IXP Mega-keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82F633902630700100A1ACE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IXP Mega-keyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IXP Mega-keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82F633922630700100A1ACE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				INFOPLIST_FILE = "IXP Mega-keyboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IXP Mega-keyboard.app/IXP Mega-keyboard";
+			};
+			name = Debug;
+		};
+		82F633932630700100A1ACE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				INFOPLIST_FILE = "IXP Mega-keyboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IXP Mega-keyboard.app/IXP Mega-keyboard";
+			};
+			name = Release;
+		};
+		82F633952630700100A1ACE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				INFOPLIST_FILE = "IXP Mega-keyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IXP Mega-keyboard";
+			};
+			name = Debug;
+		};
+		82F633962630700100A1ACE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				INFOPLIST_FILE = "IXP Mega-keyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IXP Mega-keyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82F6335F26306FFE00A1ACE9 /* Build configuration list for PBXProject "IXP Mega-keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F6338C2630700100A1ACE9 /* Debug */,
+				82F6338D2630700100A1ACE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F6338E2630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F6338F2630700100A1ACE9 /* Debug */,
+				82F633902630700100A1ACE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F633912630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F633922630700100A1ACE9 /* Debug */,
+				82F633932630700100A1ACE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F633942630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F633952630700100A1ACE9 /* Debug */,
+				82F633962630700100A1ACE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82F6335C26306FFE00A1ACE9 /* Project object */;
+}
