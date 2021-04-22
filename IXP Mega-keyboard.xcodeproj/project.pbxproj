@@ -7,34 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82CFB2612630BFB7009BA78D /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CFB2602630BFB7009BA78D /* red.png */; };
+		82CFB2672630C9E5009BA78D /* TextFieldAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB2652630C9E5009BA78D /* TextFieldAccessoryViewController.swift */; };
+		82CFB2682630C9E5009BA78D /* TextFieldAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */; };
+		82CFB26C2630CA50009BA78D /* AccessoryCapableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB26B2630CA50009BA78D /* AccessoryCapableTextField.swift */; };
+		82CFB2702630CC73009BA78D /* SpecialTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB26F2630CC73009BA78D /* SpecialTextFieldView.swift */; };
+		82CFB2762630D0FB009BA78D /* SpecialTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB2752630D0FB009BA78D /* SpecialTextFieldViewController.swift */; };
+		82D64A082630B31A006C0E92 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F633A126307DCA00A1ACE9 /* Messages.framework */; };
+		82D64A0B2630B31A006C0E92 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D64A0A2630B31A006C0E92 /* MessagesViewController.swift */; };
+		82D64A0E2630B31A006C0E92 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D64A0C2630B31A006C0E92 /* MainInterface.storyboard */; };
+		82D64A102630B31D006C0E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D64A0F2630B31D006C0E92 /* Assets.xcassets */; };
+		82D64A142630B31D006C0E92 /* imessagesV2.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 82D64A072630B31A006C0E92 /* imessagesV2.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82D64A1E2630B36E006C0E92 /* IxpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D64A1D2630B36E006C0E92 /* IxpController.swift */; };
+		82D64A382630B4B3006C0E92 /* pug.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D64A372630B4B3006C0E92 /* pug.png */; };
 		82F6336826306FFE00A1ACE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6336726306FFE00A1ACE9 /* AppDelegate.swift */; };
 		82F6336A26306FFE00A1ACE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6336926306FFE00A1ACE9 /* SceneDelegate.swift */; };
 		82F6336C26306FFE00A1ACE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6336B26306FFE00A1ACE9 /* ContentView.swift */; };
 		82F6336E2630700000A1ACE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F6336D2630700000A1ACE9 /* Assets.xcassets */; };
 		82F633712630700000A1ACE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F633702630700000A1ACE9 /* Preview Assets.xcassets */; };
 		82F633742630700000A1ACE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F633722630700000A1ACE9 /* LaunchScreen.storyboard */; };
-		82F6337F2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6337E2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift */; };
-		82F6338A2630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633892630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift */; };
+		82F633BA2630843B00A1ACE9 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633B92630843B00A1ACE9 /* CustomView.swift */; };
+		82F633CA263084B600A1ACE9 /* AccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633C9263084B600A1ACE9 /* AccessoryViewController.swift */; };
+		82F633D02630859C00A1ACE9 /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633CF2630859C00A1ACE9 /* AccessoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		82F6337B2630700000A1ACE9 /* PBXContainerItemProxy */ = {
+		82D64A122630B31D006C0E92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 82F6335C26306FFE00A1ACE9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 82F6336326306FFE00A1ACE9;
-			remoteInfo = "IXP Mega-keyboard";
-		};
-		82F633862630700100A1ACE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82F6335C26306FFE00A1ACE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82F6336326306FFE00A1ACE9;
-			remoteInfo = "IXP Mega-keyboard";
+			remoteGlobalIDString = 82D64A062630B31A006C0E92;
+			remoteInfo = imessagesV2;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		82F633B226307DCC00A1ACE9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				82D64A142630B31D006C0E92 /* imessagesV2.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		82CFB2602630BFB7009BA78D /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		82CFB2652630C9E5009BA78D /* TextFieldAccessoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAccessoryViewController.swift; sourceTree = "<group>"; };
+		82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAccessoryView.swift; sourceTree = "<group>"; };
+		82CFB26B2630CA50009BA78D /* AccessoryCapableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryCapableTextField.swift; sourceTree = "<group>"; };
+		82CFB26F2630CC73009BA78D /* SpecialTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialTextFieldView.swift; sourceTree = "<group>"; };
+		82CFB2752630D0FB009BA78D /* SpecialTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialTextFieldViewController.swift; sourceTree = "<group>"; };
+		82D64A072630B31A006C0E92 /* imessagesV2.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = imessagesV2.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D64A0A2630B31A006C0E92 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		82D64A0D2630B31A006C0E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		82D64A0F2630B31D006C0E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82D64A112630B31D006C0E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D64A1D2630B36E006C0E92 /* IxpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IxpController.swift; sourceTree = "<group>"; };
+		82D64A372630B4B3006C0E92 /* pug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pug.png; sourceTree = "<group>"; };
 		82F6336426306FFE00A1ACE9 /* IXP Mega-keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IXP Mega-keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F6336726306FFE00A1ACE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82F6336926306FFE00A1ACE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,30 +77,22 @@
 		82F633702630700000A1ACE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82F633732630700000A1ACE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82F633752630700000A1ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82F6337A2630700000A1ACE9 /* IXP Mega-keyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IXP Mega-keyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82F6337E2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IXP_Mega_keyboardTests.swift; sourceTree = "<group>"; };
-		82F633802630700000A1ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82F633852630700100A1ACE9 /* IXP Mega-keyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IXP Mega-keyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82F633892630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IXP_Mega_keyboardUITests.swift; sourceTree = "<group>"; };
-		82F6338B2630700100A1ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F633A126307DCA00A1ACE9 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		82F633B92630843B00A1ACE9 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		82F633C9263084B600A1ACE9 /* AccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewController.swift; sourceTree = "<group>"; };
+		82F633CF2630859C00A1ACE9 /* AccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		82D64A042630B31A006C0E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D64A082630B31A006C0E92 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82F6336126306FFE00A1ACE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82F633772630700000A1ACE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82F633822630700000A1ACE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,12 +102,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82D64A092630B31A006C0E92 /* imessagesV2 */ = {
+			isa = PBXGroup;
+			children = (
+				82D64A0A2630B31A006C0E92 /* MessagesViewController.swift */,
+				82D64A0C2630B31A006C0E92 /* MainInterface.storyboard */,
+				82D64A0F2630B31D006C0E92 /* Assets.xcassets */,
+				82CFB2602630BFB7009BA78D /* red.png */,
+				82D64A372630B4B3006C0E92 /* pug.png */,
+				82D64A112630B31D006C0E92 /* Info.plist */,
+				82D64A1D2630B36E006C0E92 /* IxpController.swift */,
+			);
+			path = imessagesV2;
+			sourceTree = "<group>";
+		};
 		82F6335B26306FFE00A1ACE9 = {
 			isa = PBXGroup;
 			children = (
 				82F6336626306FFE00A1ACE9 /* IXP Mega-keyboard */,
-				82F6337D2630700000A1ACE9 /* IXP Mega-keyboardTests */,
-				82F633882630700100A1ACE9 /* IXP Mega-keyboardUITests */,
+				82D64A092630B31A006C0E92 /* imessagesV2 */,
+				82F633A026307DCA00A1ACE9 /* Frameworks */,
 				82F6336526306FFE00A1ACE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				82F6336426306FFE00A1ACE9 /* IXP Mega-keyboard.app */,
-				82F6337A2630700000A1ACE9 /* IXP Mega-keyboardTests.xctest */,
-				82F633852630700100A1ACE9 /* IXP Mega-keyboardUITests.xctest */,
+				82D64A072630B31A006C0E92 /* imessagesV2.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +138,9 @@
 		82F6336626306FFE00A1ACE9 /* IXP Mega-keyboard */ = {
 			isa = PBXGroup;
 			children = (
+				82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */,
+				82CFB2652630C9E5009BA78D /* TextFieldAccessoryViewController.swift */,
+				82F633CF2630859C00A1ACE9 /* AccessoryView.swift */,
 				82F6336726306FFE00A1ACE9 /* AppDelegate.swift */,
 				82F6336926306FFE00A1ACE9 /* SceneDelegate.swift */,
 				82F6336B26306FFE00A1ACE9 /* ContentView.swift */,
@@ -106,6 +148,11 @@
 				82F633722630700000A1ACE9 /* LaunchScreen.storyboard */,
 				82F633752630700000A1ACE9 /* Info.plist */,
 				82F6336F2630700000A1ACE9 /* Preview Content */,
+				82F633B92630843B00A1ACE9 /* CustomView.swift */,
+				82F633C9263084B600A1ACE9 /* AccessoryViewController.swift */,
+				82CFB26B2630CA50009BA78D /* AccessoryCapableTextField.swift */,
+				82CFB26F2630CC73009BA78D /* SpecialTextFieldView.swift */,
+				82CFB2752630D0FB009BA78D /* SpecialTextFieldViewController.swift */,
 			);
 			path = "IXP Mega-keyboard";
 			sourceTree = "<group>";
@@ -118,27 +165,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		82F6337D2630700000A1ACE9 /* IXP Mega-keyboardTests */ = {
+		82F633A026307DCA00A1ACE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				82F6337E2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift */,
-				82F633802630700000A1ACE9 /* Info.plist */,
+				82F633A126307DCA00A1ACE9 /* Messages.framework */,
 			);
-			path = "IXP Mega-keyboardTests";
-			sourceTree = "<group>";
-		};
-		82F633882630700100A1ACE9 /* IXP Mega-keyboardUITests */ = {
-			isa = PBXGroup;
-			children = (
-				82F633892630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift */,
-				82F6338B2630700100A1ACE9 /* Info.plist */,
-			);
-			path = "IXP Mega-keyboardUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		82D64A062630B31A006C0E92 /* imessagesV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D64A152630B31D006C0E92 /* Build configuration list for PBXNativeTarget "imessagesV2" */;
+			buildPhases = (
+				82D64A032630B31A006C0E92 /* Sources */,
+				82D64A042630B31A006C0E92 /* Frameworks */,
+				82D64A052630B31A006C0E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imessagesV2;
+			productName = imessagesV2;
+			productReference = 82D64A072630B31A006C0E92 /* imessagesV2.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
 		82F6336326306FFE00A1ACE9 /* IXP Mega-keyboard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82F6338E2630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboard" */;
@@ -146,51 +200,17 @@
 				82F6336026306FFE00A1ACE9 /* Sources */,
 				82F6336126306FFE00A1ACE9 /* Frameworks */,
 				82F6336226306FFE00A1ACE9 /* Resources */,
+				82F633B226307DCC00A1ACE9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				82D64A132630B31D006C0E92 /* PBXTargetDependency */,
 			);
 			name = "IXP Mega-keyboard";
 			productName = "IXP Mega-keyboard";
 			productReference = 82F6336426306FFE00A1ACE9 /* IXP Mega-keyboard.app */;
 			productType = "com.apple.product-type.application";
-		};
-		82F633792630700000A1ACE9 /* IXP Mega-keyboardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82F633912630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboardTests" */;
-			buildPhases = (
-				82F633762630700000A1ACE9 /* Sources */,
-				82F633772630700000A1ACE9 /* Frameworks */,
-				82F633782630700000A1ACE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82F6337C2630700000A1ACE9 /* PBXTargetDependency */,
-			);
-			name = "IXP Mega-keyboardTests";
-			productName = "IXP Mega-keyboardTests";
-			productReference = 82F6337A2630700000A1ACE9 /* IXP Mega-keyboardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		82F633842630700000A1ACE9 /* IXP Mega-keyboardUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82F633942630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboardUITests" */;
-			buildPhases = (
-				82F633812630700000A1ACE9 /* Sources */,
-				82F633822630700000A1ACE9 /* Frameworks */,
-				82F633832630700000A1ACE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82F633872630700100A1ACE9 /* PBXTargetDependency */,
-			);
-			name = "IXP Mega-keyboardUITests";
-			productName = "IXP Mega-keyboardUITests";
-			productReference = 82F633852630700100A1ACE9 /* IXP Mega-keyboardUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -201,16 +221,11 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					82D64A062630B31A006C0E92 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					82F6336326306FFE00A1ACE9 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					82F633792630700000A1ACE9 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 82F6336326306FFE00A1ACE9;
-					};
-					82F633842630700000A1ACE9 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 82F6336326306FFE00A1ACE9;
 					};
 				};
 			};
@@ -228,13 +243,23 @@
 			projectRoot = "";
 			targets = (
 				82F6336326306FFE00A1ACE9 /* IXP Mega-keyboard */,
-				82F633792630700000A1ACE9 /* IXP Mega-keyboardTests */,
-				82F633842630700000A1ACE9 /* IXP Mega-keyboardUITests */,
+				82D64A062630B31A006C0E92 /* imessagesV2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		82D64A052630B31A006C0E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D64A382630B4B3006C0E92 /* pug.png in Resources */,
+				82CFB2612630BFB7009BA78D /* red.png in Resources */,
+				82D64A102630B31D006C0E92 /* Assets.xcassets in Resources */,
+				82D64A0E2630B31A006C0E92 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82F6336226306FFE00A1ACE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,65 +270,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82F633782630700000A1ACE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82F633832630700000A1ACE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		82D64A032630B31A006C0E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D64A0B2630B31A006C0E92 /* MessagesViewController.swift in Sources */,
+				82D64A1E2630B36E006C0E92 /* IxpController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82F6336026306FFE00A1ACE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				82F6336826306FFE00A1ACE9 /* AppDelegate.swift in Sources */,
+				82F633D02630859C00A1ACE9 /* AccessoryView.swift in Sources */,
+				82F633BA2630843B00A1ACE9 /* CustomView.swift in Sources */,
 				82F6336A26306FFE00A1ACE9 /* SceneDelegate.swift in Sources */,
 				82F6336C26306FFE00A1ACE9 /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82F633762630700000A1ACE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82F6337F2630700000A1ACE9 /* IXP_Mega_keyboardTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82F633812630700000A1ACE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82F6338A2630700100A1ACE9 /* IXP_Mega_keyboardUITests.swift in Sources */,
+				82F633CA263084B600A1ACE9 /* AccessoryViewController.swift in Sources */,
+				82CFB2672630C9E5009BA78D /* TextFieldAccessoryViewController.swift in Sources */,
+				82CFB2762630D0FB009BA78D /* SpecialTextFieldViewController.swift in Sources */,
+				82CFB26C2630CA50009BA78D /* AccessoryCapableTextField.swift in Sources */,
+				82CFB2702630CC73009BA78D /* SpecialTextFieldView.swift in Sources */,
+				82CFB2682630C9E5009BA78D /* TextFieldAccessoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		82F6337C2630700000A1ACE9 /* PBXTargetDependency */ = {
+		82D64A132630B31D006C0E92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82F6336326306FFE00A1ACE9 /* IXP Mega-keyboard */;
-			targetProxy = 82F6337B2630700000A1ACE9 /* PBXContainerItemProxy */;
-		};
-		82F633872630700100A1ACE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 82F6336326306FFE00A1ACE9 /* IXP Mega-keyboard */;
-			targetProxy = 82F633862630700100A1ACE9 /* PBXContainerItemProxy */;
+			target = 82D64A062630B31A006C0E92 /* imessagesV2 */;
+			targetProxy = 82D64A122630B31D006C0E92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		82D64A0C2630B31A006C0E92 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D64A0D2630B31A006C0E92 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		82F633722630700000A1ACE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -315,6 +330,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		82D64A162630B31D006C0E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				INFOPLIST_FILE = imessagesV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboard.imessagesV2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82D64A172630B31D006C0E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				INFOPLIST_FILE = imessagesV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboard.imessagesV2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		82F6338C2630700100A1ACE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -434,6 +489,7 @@
 		82F6338F2630700100A1ACE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,6 +511,7 @@
 		82F633902630700100A1ACE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -473,93 +530,18 @@
 			};
 			name = Release;
 		};
-		82F633922630700100A1ACE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2MFJG54A6;
-				INFOPLIST_FILE = "IXP Mega-keyboardTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboardTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IXP Mega-keyboard.app/IXP Mega-keyboard";
-			};
-			name = Debug;
-		};
-		82F633932630700100A1ACE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2MFJG54A6;
-				INFOPLIST_FILE = "IXP Mega-keyboardTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboardTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IXP Mega-keyboard.app/IXP Mega-keyboard";
-			};
-			name = Release;
-		};
-		82F633952630700100A1ACE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2MFJG54A6;
-				INFOPLIST_FILE = "IXP Mega-keyboardUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboardUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "IXP Mega-keyboard";
-			};
-			name = Debug;
-		};
-		82F633962630700100A1ACE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L2MFJG54A6;
-				INFOPLIST_FILE = "IXP Mega-keyboardUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboardUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "IXP Mega-keyboard";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		82D64A152630B31D006C0E92 /* Build configuration list for PBXNativeTarget "imessagesV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D64A162630B31D006C0E92 /* Debug */,
+				82D64A172630B31D006C0E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		82F6335F26306FFE00A1ACE9 /* Build configuration list for PBXProject "IXP Mega-keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -574,24 +556,6 @@
 			buildConfigurations = (
 				82F6338F2630700100A1ACE9 /* Debug */,
 				82F633902630700100A1ACE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82F633912630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82F633922630700100A1ACE9 /* Debug */,
-				82F633932630700100A1ACE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82F633942630700100A1ACE9 /* Build configuration list for PBXNativeTarget "IXP Mega-keyboardUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82F633952630700100A1ACE9 /* Debug */,
-				82F633962630700100A1ACE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
