@@ -20,8 +20,9 @@ class IxpController:MSStickerBrowserViewController {
         createSticker(asset: "pug", localizedDescription:"IXP pug")
         createSticker(asset: "LT", localizedDescription:"Leadership Team")
         createSticker(asset: "Win32", localizedDescription:"A whole old world")
+        createSticker(asset: "Australian", localizedDescription:"IXP puppy")
+        createSticker(asset: "Clippy", localizedDescription:"Clippy")
 
-            // createSticker(asset: "Australian", localizedDescription:"IXP puppy")
         
       }
       

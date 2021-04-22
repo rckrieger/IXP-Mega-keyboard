@@ -29,6 +29,8 @@ extension View {
 
 
 struct ContentView: View {
+    @State private var accessoryfield = ""
+    @State private var github = ""
 
     var body: some View {
         VStack{
@@ -41,21 +43,19 @@ struct ContentView: View {
                 TextField("basicfield", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                     .keyboardType(.numberPad)
                     .accentColor(.green)
+                    .foregroundColor(.purple)
             }
             HStack {
-                Text("Custom")
-                TextField("customfield", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                //UITextField(frame: "customfield").inputAccessoryView
-                
-
-
+                Text("Custom wrapped UITextField")
+                SpecialTextFieldView()
             }
             HStack {
-                Text("Accessory")
-                TextField("accessoryfield", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                TextFieldAccessoryView
+                Text("Accessory from github")
+                AccessoryCapableTextField("github", text: $github)
+                    .accessoryViewController(TextFieldAccessoryViewController(), tag: 0)
             
             }
+
             HStack {
                 Text("Rotation: ")
                 Text(orientationToString())

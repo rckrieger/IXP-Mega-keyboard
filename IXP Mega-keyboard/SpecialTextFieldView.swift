@@ -7,15 +7,18 @@
 
 import SwiftUI
 import UIKit
-
-struct SpecialTextFieldView<Page: View>: UIViewRepresentable {
-
+struct SpecialTextFieldView: UIViewRepresentable {
+    //@Binding var text: NSMutableAttributedString
+    
     func makeUIView(context: Context) -> UITextField {
-        let textField = UITextField
-        textField.inputAccessoryView = accessoryViewController.view
+        let textField = UITextField()
+       // textField.backgroundColor = UIColor.green
+        textField.tintColor = UIColor.purple
+        textField.keyboardAppearance = .light
+        return textField
+    }
 
-
-        
-        return view
+    func updateUIView(_ uiView: UITextField, context: Context) {
+        //uiView.attributedText = text
     }
 }

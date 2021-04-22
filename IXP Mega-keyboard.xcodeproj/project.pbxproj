@@ -14,7 +14,6 @@
 		82CFB2682630C9E5009BA78D /* TextFieldAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */; };
 		82CFB26C2630CA50009BA78D /* AccessoryCapableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB26B2630CA50009BA78D /* AccessoryCapableTextField.swift */; };
 		82CFB2702630CC73009BA78D /* SpecialTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB26F2630CC73009BA78D /* SpecialTextFieldView.swift */; };
-		82CFB2762630D0FB009BA78D /* SpecialTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB2752630D0FB009BA78D /* SpecialTextFieldViewController.swift */; };
 		82D64A082630B31A006C0E92 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F633A126307DCA00A1ACE9 /* Messages.framework */; };
 		82D64A0B2630B31A006C0E92 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D64A0A2630B31A006C0E92 /* MessagesViewController.swift */; };
 		82D64A0E2630B31A006C0E92 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D64A0C2630B31A006C0E92 /* MainInterface.storyboard */; };
@@ -28,9 +27,7 @@
 		82F6336E2630700000A1ACE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F6336D2630700000A1ACE9 /* Assets.xcassets */; };
 		82F633712630700000A1ACE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F633702630700000A1ACE9 /* Preview Assets.xcassets */; };
 		82F633742630700000A1ACE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F633722630700000A1ACE9 /* LaunchScreen.storyboard */; };
-		82F633BA2630843B00A1ACE9 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633B92630843B00A1ACE9 /* CustomView.swift */; };
 		82F633CA263084B600A1ACE9 /* AccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633C9263084B600A1ACE9 /* AccessoryViewController.swift */; };
-		82F633D02630859C00A1ACE9 /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633CF2630859C00A1ACE9 /* AccessoryView.swift */; };
 		82FC80612631ED79006DDB46 /* LT.png in Resources */ = {isa = PBXBuildFile; fileRef = 82FC80602631ED79006DDB46 /* LT.png */; };
 		82FC80652631ED92006DDB46 /* Win32.png in Resources */ = {isa = PBXBuildFile; fileRef = 82FC80642631ED92006DDB46 /* Win32.png */; };
 /* End PBXBuildFile section */
@@ -67,7 +64,6 @@
 		82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAccessoryView.swift; sourceTree = "<group>"; };
 		82CFB26B2630CA50009BA78D /* AccessoryCapableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryCapableTextField.swift; sourceTree = "<group>"; };
 		82CFB26F2630CC73009BA78D /* SpecialTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialTextFieldView.swift; sourceTree = "<group>"; };
-		82CFB2752630D0FB009BA78D /* SpecialTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialTextFieldViewController.swift; sourceTree = "<group>"; };
 		82D64A072630B31A006C0E92 /* imessagesV2.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = imessagesV2.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D64A0A2630B31A006C0E92 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		82D64A0D2630B31A006C0E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -84,9 +80,7 @@
 		82F633732630700000A1ACE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82F633752630700000A1ACE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82F633A126307DCA00A1ACE9 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
-		82F633B92630843B00A1ACE9 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		82F633C9263084B600A1ACE9 /* AccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewController.swift; sourceTree = "<group>"; };
-		82F633CF2630859C00A1ACE9 /* AccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
 		82FC80602631ED79006DDB46 /* LT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LT.png; sourceTree = "<group>"; };
 		82FC80642631ED92006DDB46 /* Win32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Win32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,7 +146,6 @@
 			children = (
 				82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */,
 				82CFB2652630C9E5009BA78D /* TextFieldAccessoryViewController.swift */,
-				82F633CF2630859C00A1ACE9 /* AccessoryView.swift */,
 				82F6336726306FFE00A1ACE9 /* AppDelegate.swift */,
 				82F6336926306FFE00A1ACE9 /* SceneDelegate.swift */,
 				82F6336B26306FFE00A1ACE9 /* ContentView.swift */,
@@ -160,11 +153,9 @@
 				82F633722630700000A1ACE9 /* LaunchScreen.storyboard */,
 				82F633752630700000A1ACE9 /* Info.plist */,
 				82F6336F2630700000A1ACE9 /* Preview Content */,
-				82F633B92630843B00A1ACE9 /* CustomView.swift */,
 				82F633C9263084B600A1ACE9 /* AccessoryViewController.swift */,
 				82CFB26B2630CA50009BA78D /* AccessoryCapableTextField.swift */,
 				82CFB26F2630CC73009BA78D /* SpecialTextFieldView.swift */,
-				82CFB2752630D0FB009BA78D /* SpecialTextFieldViewController.swift */,
 			);
 			path = "IXP Mega-keyboard";
 			sourceTree = "<group>";
@@ -303,13 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				82F6336826306FFE00A1ACE9 /* AppDelegate.swift in Sources */,
-				82F633D02630859C00A1ACE9 /* AccessoryView.swift in Sources */,
-				82F633BA2630843B00A1ACE9 /* CustomView.swift in Sources */,
 				82F6336A26306FFE00A1ACE9 /* SceneDelegate.swift in Sources */,
 				82F6336C26306FFE00A1ACE9 /* ContentView.swift in Sources */,
 				82F633CA263084B600A1ACE9 /* AccessoryViewController.swift in Sources */,
 				82CFB2672630C9E5009BA78D /* TextFieldAccessoryViewController.swift in Sources */,
-				82CFB2762630D0FB009BA78D /* SpecialTextFieldViewController.swift in Sources */,
 				82CFB26C2630CA50009BA78D /* AccessoryCapableTextField.swift in Sources */,
 				82CFB2702630CC73009BA78D /* SpecialTextFieldView.swift in Sources */,
 				82CFB2682630C9E5009BA78D /* TextFieldAccessoryView.swift in Sources */,
