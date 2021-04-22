@@ -17,8 +17,10 @@ class IxpController:MSStickerBrowserViewController {
       func loadStickers(){
         
         createSticker(asset: "red", localizedDescription:"Red IXP")
-       // createSticker(asset: "blue", localizedDescription:"Blue IXP")
         createSticker(asset: "pug", localizedDescription:"IXP pug")
+        createSticker(asset: "LT", localizedDescription:"Leadership Team")
+        createSticker(asset: "Win32", localizedDescription:"A whole old world")
+
             // createSticker(asset: "Australian", localizedDescription:"IXP puppy")
         
       }

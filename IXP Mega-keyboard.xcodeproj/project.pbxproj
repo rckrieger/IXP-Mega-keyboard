@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		827014892631EDED001EFE4E /* clippy.png in Resources */ = {isa = PBXBuildFile; fileRef = 827014872631EDED001EFE4E /* clippy.png */; };
+		8270148A2631EDED001EFE4E /* Australian.png in Resources */ = {isa = PBXBuildFile; fileRef = 827014882631EDED001EFE4E /* Australian.png */; };
 		82CFB2612630BFB7009BA78D /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CFB2602630BFB7009BA78D /* red.png */; };
 		82CFB2672630C9E5009BA78D /* TextFieldAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB2652630C9E5009BA78D /* TextFieldAccessoryViewController.swift */; };
 		82CFB2682630C9E5009BA78D /* TextFieldAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */; };
@@ -29,6 +31,8 @@
 		82F633BA2630843B00A1ACE9 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633B92630843B00A1ACE9 /* CustomView.swift */; };
 		82F633CA263084B600A1ACE9 /* AccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633C9263084B600A1ACE9 /* AccessoryViewController.swift */; };
 		82F633D02630859C00A1ACE9 /* AccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F633CF2630859C00A1ACE9 /* AccessoryView.swift */; };
+		82FC80612631ED79006DDB46 /* LT.png in Resources */ = {isa = PBXBuildFile; fileRef = 82FC80602631ED79006DDB46 /* LT.png */; };
+		82FC80652631ED92006DDB46 /* Win32.png in Resources */ = {isa = PBXBuildFile; fileRef = 82FC80642631ED92006DDB46 /* Win32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		827014872631EDED001EFE4E /* clippy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clippy.png; sourceTree = "<group>"; };
+		827014882631EDED001EFE4E /* Australian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Australian.png; sourceTree = "<group>"; };
 		82CFB2602630BFB7009BA78D /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		82CFB2652630C9E5009BA78D /* TextFieldAccessoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAccessoryViewController.swift; sourceTree = "<group>"; };
 		82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAccessoryView.swift; sourceTree = "<group>"; };
@@ -81,6 +87,8 @@
 		82F633B92630843B00A1ACE9 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		82F633C9263084B600A1ACE9 /* AccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewController.swift; sourceTree = "<group>"; };
 		82F633CF2630859C00A1ACE9 /* AccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryView.swift; sourceTree = "<group>"; };
+		82FC80602631ED79006DDB46 /* LT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LT.png; sourceTree = "<group>"; };
+		82FC80642631ED92006DDB46 /* Win32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Win32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 				82D64A0A2630B31A006C0E92 /* MessagesViewController.swift */,
 				82D64A0C2630B31A006C0E92 /* MainInterface.storyboard */,
 				82D64A0F2630B31D006C0E92 /* Assets.xcassets */,
+				82FC80642631ED92006DDB46 /* Win32.png */,
+				827014882631EDED001EFE4E /* Australian.png */,
+				827014872631EDED001EFE4E /* clippy.png */,
+				82FC80602631ED79006DDB46 /* LT.png */,
 				82CFB2602630BFB7009BA78D /* red.png */,
 				82D64A372630B4B3006C0E92 /* pug.png */,
 				82D64A112630B31D006C0E92 /* Info.plist */,
@@ -253,9 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FC80612631ED79006DDB46 /* LT.png in Resources */,
 				82D64A382630B4B3006C0E92 /* pug.png in Resources */,
 				82CFB2612630BFB7009BA78D /* red.png in Resources */,
+				82FC80652631ED92006DDB46 /* Win32.png in Resources */,
 				82D64A102630B31D006C0E92 /* Assets.xcassets in Resources */,
+				8270148A2631EDED001EFE4E /* Australian.png in Resources */,
+				827014892631EDED001EFE4E /* clippy.png in Resources */,
 				82D64A0E2630B31A006C0E92 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
