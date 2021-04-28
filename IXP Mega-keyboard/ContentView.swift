@@ -31,6 +31,8 @@ extension View {
 struct ContentView: View {
     @State private var accessoryfield = ""
     @State private var github = ""
+    @State private var keyboard = ""
+
 
     var body: some View {
         VStack{
@@ -53,6 +55,12 @@ struct ContentView: View {
                 Text("Accessory from github")
                 AccessoryCapableTextField("github", text: $github)
                     .accessoryViewController(TextFieldAccessoryViewController(), tag: 0)
+            
+            }
+            HStack {
+                Text("My Custom Keyboard")
+                FieldWithMyKeyboard("My Keyboard", text: $keyboard)
+                    .customKeyboard(CustomKeyboard())
             
             }
 

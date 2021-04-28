@@ -14,6 +14,9 @@
 		82CFB2682630C9E5009BA78D /* TextFieldAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */; };
 		82CFB26C2630CA50009BA78D /* AccessoryCapableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB26B2630CA50009BA78D /* AccessoryCapableTextField.swift */; };
 		82CFB2702630CC73009BA78D /* SpecialTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CFB26F2630CC73009BA78D /* SpecialTextFieldView.swift */; };
+		82D489982639099800E89BFD /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D489972639099800E89BFD /* KeyboardViewController.swift */; };
+		82D489BA26390DD700E89BFD /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D489B926390DD700E89BFD /* CustomKeyboard.swift */; };
+		82D489BF263910A000E89BFD /* FieldWithMyKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D489BE263910A000E89BFD /* FieldWithMyKeyboard.swift */; };
 		82D64A082630B31A006C0E92 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F633A126307DCA00A1ACE9 /* Messages.framework */; };
 		82D64A0B2630B31A006C0E92 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D64A0A2630B31A006C0E92 /* MessagesViewController.swift */; };
 		82D64A0E2630B31A006C0E92 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D64A0C2630B31A006C0E92 /* MainInterface.storyboard */; };
@@ -64,6 +67,11 @@
 		82CFB2662630C9E5009BA78D /* TextFieldAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAccessoryView.swift; sourceTree = "<group>"; };
 		82CFB26B2630CA50009BA78D /* AccessoryCapableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryCapableTextField.swift; sourceTree = "<group>"; };
 		82CFB26F2630CC73009BA78D /* SpecialTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialTextFieldView.swift; sourceTree = "<group>"; };
+		82D489952639099800E89BFD /* MyCustomKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyCustomKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D489972639099800E89BFD /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		82D489992639099800E89BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D489B926390DD700E89BFD /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		82D489BE263910A000E89BFD /* FieldWithMyKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldWithMyKeyboard.swift; sourceTree = "<group>"; };
 		82D64A072630B31A006C0E92 /* imessagesV2.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = imessagesV2.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D64A0A2630B31A006C0E92 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		82D64A0D2630B31A006C0E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -86,6 +94,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		82D489922639099800E89BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82D64A042630B31A006C0E92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82D489962639099800E89BFD /* MyCustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				82D489972639099800E89BFD /* KeyboardViewController.swift */,
+				82D489992639099800E89BFD /* Info.plist */,
+			);
+			path = MyCustomKeyboard;
+			sourceTree = "<group>";
+		};
 		82D64A092630B31A006C0E92 /* imessagesV2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +151,7 @@
 			children = (
 				82F6336626306FFE00A1ACE9 /* IXP Mega-keyboard */,
 				82D64A092630B31A006C0E92 /* imessagesV2 */,
+				82D489962639099800E89BFD /* MyCustomKeyboard */,
 				82F633A026307DCA00A1ACE9 /* Frameworks */,
 				82F6336526306FFE00A1ACE9 /* Products */,
 			);
@@ -137,6 +162,7 @@
 			children = (
 				82F6336426306FFE00A1ACE9 /* IXP Mega-keyboard.app */,
 				82D64A072630B31A006C0E92 /* imessagesV2.appex */,
+				82D489952639099800E89BFD /* MyCustomKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,7 +181,9 @@
 				82F6336F2630700000A1ACE9 /* Preview Content */,
 				82F633C9263084B600A1ACE9 /* AccessoryViewController.swift */,
 				82CFB26B2630CA50009BA78D /* AccessoryCapableTextField.swift */,
+				82D489BE263910A000E89BFD /* FieldWithMyKeyboard.swift */,
 				82CFB26F2630CC73009BA78D /* SpecialTextFieldView.swift */,
+				82D489B926390DD700E89BFD /* CustomKeyboard.swift */,
 			);
 			path = "IXP Mega-keyboard";
 			sourceTree = "<group>";
@@ -179,6 +207,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		82D489942639099800E89BFD /* MyCustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D4899A2639099800E89BFD /* Build configuration list for PBXNativeTarget "MyCustomKeyboard" */;
+			buildPhases = (
+				82D489912639099800E89BFD /* Sources */,
+				82D489922639099800E89BFD /* Frameworks */,
+				82D489932639099800E89BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCustomKeyboard;
+			productName = MyCustomKeyboard;
+			productReference = 82D489952639099800E89BFD /* MyCustomKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		82D64A062630B31A006C0E92 /* imessagesV2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82D64A152630B31D006C0E92 /* Build configuration list for PBXNativeTarget "imessagesV2" */;
@@ -224,6 +269,9 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					82D489942639099800E89BFD = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					82D64A062630B31A006C0E92 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -247,11 +295,19 @@
 			targets = (
 				82F6336326306FFE00A1ACE9 /* IXP Mega-keyboard */,
 				82D64A062630B31A006C0E92 /* imessagesV2 */,
+				82D489942639099800E89BFD /* MyCustomKeyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		82D489932639099800E89BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82D64A052630B31A006C0E92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +336,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		82D489912639099800E89BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D489982639099800E89BFD /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82D64A032630B31A006C0E92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,6 +357,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D489BA26390DD700E89BFD /* CustomKeyboard.swift in Sources */,
+				82D489BF263910A000E89BFD /* FieldWithMyKeyboard.swift in Sources */,
 				82F6336826306FFE00A1ACE9 /* AppDelegate.swift in Sources */,
 				82F6336A26306FFE00A1ACE9 /* SceneDelegate.swift in Sources */,
 				82F6336C26306FFE00A1ACE9 /* ContentView.swift in Sources */,
@@ -334,6 +400,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		82D4899B2639099800E89BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				INFOPLIST_FILE = MyCustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboard.MyCustomKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82D4899C2639099800E89BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2MFJG54A6;
+				INFOPLIST_FILE = MyCustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rckrieger.IXP-Mega-keyboard.MyCustomKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		82D64A162630B31D006C0E92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -537,6 +641,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		82D4899A2639099800E89BFD /* Build configuration list for PBXNativeTarget "MyCustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4899B2639099800E89BFD /* Debug */,
+				82D4899C2639099800E89BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		82D64A152630B31D006C0E92 /* Build configuration list for PBXNativeTarget "imessagesV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
